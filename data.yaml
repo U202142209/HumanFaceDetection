@@ -1,0 +1,13 @@
+train: ./train/images
+val: ./valid/images
+test: ./test/images
+
+nc: 1
+names: ['people']
+
+roboflow:
+  workspace: raman-hrynkevich
+  project: people_dataset
+  version: 1
+  license: Public Domain
+  url: https://universe.roboflow.com/raman-hrynkevich/people_dataset/dataset/1
